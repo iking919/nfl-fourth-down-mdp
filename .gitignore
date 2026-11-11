@@ -1,0 +1,44 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Raw and processed datasets
+data/raw/*
+data/processed/*
+
+# Keep directory structure in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated outputs
+results/*
+figures/*
+
+# Keep empty output directories
+!results/.gitkeep
+!figures/.gitkeep
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
